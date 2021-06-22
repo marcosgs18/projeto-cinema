@@ -1,0 +1,169 @@
+header {
+    background: rgb(156, 3, 3);
+    padding: 20px 0;
+}
+
+.formata-logo {
+    width: 250px;
+}
+
+.caixa {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#datemin {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#botao {
+    width: 300px;
+    margin: 90px 840px;
+    text-align: center;
+}
+
+.button {
+    background-color:rgb(156, 3, 3);
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    padding: 15px 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color:goldenrod;
+    border: 2px solid rgb(156, 3, 3);
+    color: rgb(156, 3, 3);
+}
+
+.button:active{
+    background-color: rgb(184, 135, 13);
+}
+
+main {
+    background: url(img/backcine.jpg) center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#compraIngresso {
+    padding-top: 15px;
+    height: 600px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;   
+}
+
+main select {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 50px 50px 0px 0px;
+}
+
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.filmes {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.filmes img {
+    width: 220px;
+    height: 326px;
+}
+
+.filmes li {
+    color: gold;
+    text-shadow: 3px 3px 5px rgb(156, 3, 3);
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 2%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+.filmes li:hover {
+    border-color: rgb(160, 187, 8);
+}
+
+.filmes li:active {
+    border-color: rgb(143, 2, 2);
+}
+
+.filmes li:hover h2 {
+    font-size: 30px;
+}
+
+.filmes h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.genero {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(156, 3, 3);
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+#imprime {
+    text-align: center;
+    display: none;
+    height: 300px;
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgb(156, 3, 3);
+    
+}

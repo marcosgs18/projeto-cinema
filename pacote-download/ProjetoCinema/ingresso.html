@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ingressos</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img class="formata-logo" src="img/cinelogomarkus.PNG"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="modelo.html">Página Inicial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <form id="compraIngresso">
+            <label for="filme">Escolha o Filme</label>
+            <select id="id_filmes" name="esc-filme">
+                <option value="Moana">Moana</option>
+                <option value="A Bruxa">A Bruxa</option>
+                <option value="Kong - A Ilha da Caveira">Kong - A Ilha da Caveira</option>
+                <option value="Velozes e Furiosos 9">Velozes e Furiosos 9</option>
+            </select>
+
+            <br><br>
+
+            <label for="sessao">Horário da Sessão</label>
+            <select id="id_hora" name="horarios">
+                <option value="16:30">16:30</option>
+                <option value="18:30">18:30</option>
+                <option value="21:00">21:00</option>
+                <option value="22:45">22:45</option>
+            </select>
+
+            <br><br>
+
+            <label for="poltrona">Escolha sua Poltrona</label>
+            <select id="id_poltrona" name="poltronas">
+                <option value="1A">1A</option>
+                <option value="2B">2B</option>
+                <option value="3C">3C</option>
+            </select>
+
+            <br><br>
+            <label for="datemin">Data da Sessão</label>
+            <input type="date" id="datemin" min="2021-29-03" value="">
+
+            <br><br>
+            <input type="radio" name="ckIngresso" id="id_meia" checked>
+            <label for="meia">Meia: R$ 7,00</label>
+
+            <input type="radio" name="ckIngresso" id="id_inteira" checked>
+            <label for="inteira">Inteira: R$ 14,00</label>
+
+            <div id="botao">
+                <input class="button" type="button" value="Comprar Ingresso" id="btn_compra" onclick="compraIngresso()">
+            </div>
+
+
+        </form>
+        <div id="imprime"></div>
+    </main>
+
+    <footer>
+        <img class="formata-logo" src="img/cinelogomarkus.PNG">
+        <p class="copyright">&copy; Copyright Capacitação TI - 2021</p>
+    </footer>
+
+    <script src='script.js'></script>
+
+</body>
+
+</html>
